@@ -14,7 +14,6 @@ public abstract class Piece {
 		return board;
 	}
 	
-	
 	public abstract boolean[][] possibleMoves();
 	
 	public boolean possibleMove(Position position) {
